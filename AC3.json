@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AC3 - Registros",
+    "dateExported": "2023-04-28T17:53:37.714Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7477ef40-5b9b-47d8-b95c-540ece1f1cb0",
+            "colId": "bc37dc0f-b7c3-41dc-ac30-65ec190d724e",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/registros",
+            "url": "http://127.0.0.1:5000/registros",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-28T17:52:59.020Z",
+            "modified": "2023-04-28T17:52:59.020Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nome\": \"Ciclano de Tal\",\r\n    \"idade\": 30\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dadd8b0f-50e3-44c8-9145-b80e056d72b9",
+            "colId": "bc37dc0f-b7c3-41dc-ac30-65ec190d724e",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/registros/1",
+            "url": "http://127.0.0.1:5000/registros/1",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-04-28T17:53:05.194Z",
+            "modified": "2023-04-28T17:53:05.194Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "314b3406-c0f8-44bf-88ca-503874388ade",
+            "colId": "bc37dc0f-b7c3-41dc-ac30-65ec190d724e",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/registros",
+            "url": "http://127.0.0.1:5000/registros",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-28T17:53:09.164Z",
+            "modified": "2023-04-28T17:53:09.164Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

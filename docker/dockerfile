@@ -1,0 +1,16 @@
+# simple postgres dockerfile
+FROM postgres:latest
+
+# environment variables
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD postgres
+ENV POSTGRES_DB postgres
+
+# copy the init script
+COPY ./init.sql /docker-entrypoint-initdb.d/
+
+# expose the port
+EXPOSE 5432
+
+# run the postgres server
+ENTRYPOINT [ "docker-entrypoint.sh", "postgres" ]
